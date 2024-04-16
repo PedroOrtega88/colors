@@ -1,15 +1,10 @@
-import React, { useState,useRef, } from 'react';
+import React, { useState,useRef,useEffect } from 'react';
 import BoxColor from '/BoxColor'; 
 import { colors } from '../colors'; 
 
 
 
-useEffect(() =>{
-
-  preview.BoxColor.current = color;
-
-}[ colors = ['red', 'green', 'pink', 'yellow', 'purple', 'white', 'blue', 'aqua', 'olive'];]
- 
+const inputRef= useRef();
 const MyFormChallenge = () => {
 
 
