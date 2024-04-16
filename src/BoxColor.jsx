@@ -1,10 +1,10 @@
 import React from 'react';
 
-const BoxColor = ({ color, inputValue }) => {
+function BoxColor  ({ color, value })  {
   return (
     <div className={`box ${color}`}>
       <p>{inputValue}</p>
-      <p>{inputValue === color ? 'Soy el color' : 'No soy el color'}</p>
+      <p>{inputValue === color ? 'Soy ese color' : 'No soy ese color'}</p>
     </div>
   );
 };
